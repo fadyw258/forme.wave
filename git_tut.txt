@@ -1,0 +1,69 @@
+
+Fadi@DESKTOP-KP30UKT MINGW64 ~/Desktop/form-input-wave
+get git: 'int' is not a git command. See 'git --help'. //git setup
+
+The most similar command is
+        init
+
+Fadi@DESKTOP-KP30UKT MINGW64 ~/Desktop/form-input-wave
+$ git init //git starting
+Initialized empty Git repository in C:/Users/Fadi/Desktop/form-input-wave/.git/
+
+Fadi@DESKTOP-KP30UKT MINGW64 ~/Desktop/form-input-wave (master)
+$ git config --global user/.name "Fadi Armani"  
+error: invalid key: user/.name  
+
+Fadi@DESKTOP-KP30UKT MINGW64 ~/Desktop/form-input-wave (master)
+$ git config --global user.name "Fadi Armani" //adding author name
+
+Fadi@DESKTOP-KP30UKT MINGW64 ~/Desktop/form-input-wave (master)
+$ git config --global user.email "Fmarmany.fs@gmail.com" //adding author email
+
+Fadi@DESKTOP-KP30UKT MINGW64 ~/Desktop/form-input-wave (master)
+$ git remote add origin https://github.com/fadyw258/forme.wave //link local to global
+
+Fadi@DESKTOP-KP30UKT MINGW64 ~/Desktop/form-input-wave (master)
+$ get add .
+bash: get: command not found
+
+Fadi@DESKTOP-KP30UKT MINGW64 ~/Desktop/form-input-wave (master)
+$ git add .
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in script.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in style.css.
+The file will have its original line endings in your working directory
+
+Fadi@DESKTOP-KP30UKT MINGW64 ~/Desktop/form-input-wave (master)
+$ git commit -m "initial commit"  //first upload name
+[master (root-commit) b8f0f4a] initial commit
+ 3 files changed, 146 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 script.js
+ create mode 100644 style.css
+
+Fadi@DESKTOP-KP30UKT MINGW64 ~/Desktop/form-input-wave (master)
+$ git log
+commit b8f0f4aa5692b045dd70c02965f92a048cede600 (HEAD -> master)
+Author: Fadi Armani <Fmarmany.fs@gmail.com>
+Date:   Fri Jan 21 12:42:02 2022 +0100
+
+    initial commit
+
+Fadi@DESKTOP-KP30UKT MINGW64 ~/Desktop/form-input-wave (master)
+$ git push origin master  //uploding files to master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.54 KiB | 315.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/fadyw258/forme.wave
+ * [new branch]      master -> master
+
+Fadi@DESKTOP-KP30UKT MINGW64 ~/Desktop/form-input-wave (master)
+$ ^C
+
+Fadi@DESKTOP-KP30UKT MINGW64 ~/Desktop/form-input-wave (master)
+$
