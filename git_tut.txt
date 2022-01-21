@@ -52,7 +52,7 @@ Date:   Fri Jan 21 12:42:02 2022 +0100
     initial commit
 
 Fadi@DESKTOP-KP30UKT MINGW64 ~/Desktop/form-input-wave (master)
-$ git push origin master  //uploding files to master
+$ git push origin master  //uploding files to master bransh
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
 Delta compression using up to 4 threads
